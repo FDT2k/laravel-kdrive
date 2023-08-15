@@ -20,6 +20,12 @@
     },
     "require-dev": {
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vincent-tarrit/flysystem-kdrive.git"
+        }
+    ],
     "scripts": {
         "check-style": "phpcs src",
         "fix-style": "phpcbf src"
