@@ -16,7 +16,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "infomaniak/flysystem-kdrive": "^1.0 || dev-master"
+        "infomaniak/flysystem-kdrive": "dev-master"
     },
     "require-dev": {
     },
