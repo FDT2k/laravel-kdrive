@@ -14,7 +14,7 @@
             "Infomaniak\\KDrive\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "infomaniak/flysystem-kdrive": "^1.0 || dev-master"
     },
