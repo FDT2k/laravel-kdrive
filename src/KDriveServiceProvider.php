@@ -20,11 +20,7 @@ class KDriveServiceProvider extends ServiceProvider
                 $config['password'],
                 $config['prefix']
             );
-            return new FilesystemAdapter(
-                new Filesystem($kdrive, $config),
-                $adapter,
-                $config
-            );
+            return new Filesystem($kdrive, $config);
         });
     }
 }

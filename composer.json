@@ -16,9 +16,10 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "league/flysystem-webdav": "^3.15"
-    },
-    "require-dev": {
+
+        "league/flysystem-webdav": "^3.15",
+        "illuminate/support": "10.x-dev",
+        "league/flysystem": "3.x-dev"
     },
     "repositories": [
         {
