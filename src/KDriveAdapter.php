@@ -26,7 +26,7 @@ class KDriveAdapter extends WebDAVAdapter
         $useStreamedCopy = true
     ) {
         $settings = [
-            'baseUri' => "https://${kDriveId}.connect.drive.infomaniak.com",
+            'baseUri' => "https://{$kDriveId}.connect.drive.infomaniak.com",
             'userName' => $username,
             'password' => $password
         ];
