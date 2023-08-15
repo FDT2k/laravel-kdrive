@@ -16,7 +16,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "infomaniak/flysystem-kdrive": "dev-master"
+        "league/flysystem-webdav": "^3.15"
     },
     "require-dev": {
     },
