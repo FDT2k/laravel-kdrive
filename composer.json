@@ -34,5 +34,11 @@
                 "Infomaniak\\KDrive\\KDriveServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cotiga/flysystem-kdrive.git"
+        }
+    ]
 }
