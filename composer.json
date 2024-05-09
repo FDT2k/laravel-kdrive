@@ -14,10 +14,10 @@
             "Infomaniak\\KDrive\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
-        "infomaniak/flysystem-kdrive": "^1.0",
-        "illuminate/support": "^5.0|^6.0|^7.0"
+        "infomaniak/flysystem-kdrive": "dev-master",
+        "illuminate/support": "~9.0|~10.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5"
@@ -32,5 +32,11 @@
                 "Infomaniak\\KDrive\\KDriveServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cotiga/flysystem-kdrive.git"
+        }
+    ]
 }
